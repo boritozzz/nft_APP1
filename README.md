@@ -36,23 +36,15 @@ CREATE TABLE users (
 ### Usage
 Spec It API Documentation:
 
-const axios = require("axios");
-
 url = f'https://solana-gateway.moralis.io/nft/mainnet/' + address + '/metadata'
 headers = {"accept": "application/json",
            "X-API-Key": "u8emWI08OHGRqpKRzmO3Y3gW4OhbTdOdVRuJobooGeSvYRGjep6bmjuIDVu8RqEI"}
 response = requests.get(url, headers=headers)
 
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
-});
+### Example:
 
-###Example:
-
-####Input:2FE7HdBq9F8LtUsoq8r2hpEAGa2Uz6Dd5XoKscewFg8y 
-####Output: infp: {"mint":"2FE7HdBq9F8LtUsoq8r2hpEAGa2Uz6Dd5XoKscewFg8y","standard":"metaplex","name":"y00ts: mint t00b #13806","symbol":"t00b","metaplex":{"metadataUri":"https://metadata.y00ts.com/t/13806.json","updateAuthority":"yootn8Kf22CQczC732psp7qEqxwPGSDQCFZHkzoXp25","sellerFeeBasisPoints":0,"primarySaleHappened":0,"owners":[{"address":"yootn8Kf22CQczC732psp7qEqxwPGSDQCFZHkzoXp25","verified":1,"share":100}],"isMutable":true,"masterEdition":false}}
+#### Input:2FE7HdBq9F8LtUsoq8r2hpEAGa2Uz6Dd5XoKscewFg8y 
+#### Output: infp: {"mint":"2FE7HdBq9F8LtUsoq8r2hpEAGa2Uz6Dd5XoKscewFg8y","standard":"metaplex","name":"y00ts: mint t00b #13806","symbol":"t00b","metaplex":{"metadataUri":"https://metadata.y00ts.com/t/13806.json","updateAuthority":"yootn8Kf22CQczC732psp7qEqxwPGSDQCFZHkzoXp25","sellerFeeBasisPoints":0,"primarySaleHappened":0,"owners":[{"address":"yootn8Kf22CQczC732psp7qEqxwPGSDQCFZHkzoXp25","verified":1,"share":100}],"isMutable":true,"masterEdition":false}}
 
 ### Examples for use:
 Run main_app.py.
