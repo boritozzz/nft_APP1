@@ -8,8 +8,6 @@ The program itself runs in Python. Connecting to a Postgres database (Pg admin4)
 - Version: 2022.2.3 Assembly: 222.4345.23 October 16, 2022
 - Postgres: Pg Admin 4
 - Version 6.1 (4280.88)
-- install VSCode or any other compiler for python
-- install flask and psychopg2
 - install postgress and open nft_db
 - Terminal in VSCode:
 
