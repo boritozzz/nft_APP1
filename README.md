@@ -49,9 +49,9 @@ response = requests.get(url, headers=headers)
 ### Examples for use:
 Run main_app.py.
 Click localhost in terminal, and and the program will open your browser. First of all, you will need to log in. If you
-do not authorised in this website, you will have to register. And then only you can search games.
-After you logged in, you need to type name of the game and choose recommended or minimal requirements and then click "Search".
-After clicking on the site, information about your relevant requirements that you have chosen earlier will be displayed.
+do not authorised in this website, you will have to register. And then only you can search NFTs.
+After you logged in, you need to insert link of the chosen NFT and then click "Search".
+After clicking on the site, information about your NFT that you have chosen earlier will be displayed.
 
 ### Team of the project:
 *Yevgeniy Smagin*
