@@ -4,7 +4,7 @@ The information is sent to the database using an API request of SolanaAPI and th
 The program itself runs in Python. Connecting to a Postgres database (Pg admin4). We also use html, css, bootstrap for the site.
 
 ### Installation
-- Python: Install the current version of Python: PyCharm
+- Python: Install the current version of Python: VSCode
 - Version: 2022.2.3 Assembly: 222.4345.23 October 16, 2022
 - Postgres: Pg Admin 4
 - Version 6.1 (4280.88)
@@ -19,7 +19,7 @@ The program itself runs in Python. Connecting to a Postgres database (Pg admin4)
 	- pip install flask-request
 
 ### In PgAdmin4:
-1. Open the PostgreSQL 13 and CREATE NEW DATABASE and CALL IT "PyProject_db"".
+1. Open the PostgreSQL 13 and CREATE NEW DATABASE and CALL IT "nft_db"".
 2. Open the PyProject_db database >>> Schemas >>> Tables >> right mouse button and click Query Tool >>> Query Editor.
 3. Paste following: 
 
